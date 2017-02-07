@@ -37,6 +37,13 @@ This lab is about experimenting with PHP and installing the silex framework
 * MIT
 
 ## Specifications
-* none
-
+* Setup Silex app
+* Create Job Class with title, description, and contact info
+|Behavior|Input|Output|
+|--------|-----|------|
+|$x = new Job()|"myTitle","myDescription","myContact"|"myTitle","myDescription","myContact"|
+* Create a Contact class
+|Behavior|Input|Output|
+|--------|-----|------|
+|$x = new Contact()|"myName","myAddress","myPhoneNumber"|"myName","myAddress","myPhoneNumber"|
 * End specifications
